@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactForm</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1><a href="./index.html"><p>のぞみ訪問看護ステーション</p></a></h1>
+    <nav class="pcMenu">
+      <div class="pc-menu">
+        <ul>
+          <li><a href="https://blue-border.lovepop.jp/nozomi-visiting-nurse/index.html">私たちについて</a></li>
+        <li><a href="https://blue-border.lovepop.jp/nozomi-visiting-nurse/index.html">サービス</a></li>
+        <li><a href="https://blue-border.lovepop.jp/nozomi-visiting-nurse/index.html">ご利用までの流れ</a></li>
+        <li><a href="./conrtact.html">お問い合わせ</a></li>
+        <li><a href="./Recruitment.html">採用情報</a></li>
+        </ul>
+      </div>
+    </nav>
+<div id="navArea">
+  <nav class="sp-menu">
+    <div class="inner">
+      <ul>
+        <li><a href="https://blue-border.lovepop.jp/nozomi-visiting-nurse/index.html">私たちについて</a></li>
+        <li><a href="https://blue-border.lovepop.jp/nozomi-visiting-nurse/index.html">サービス</a></li>
+        <li><a href="https://blue-border.lovepop.jp/nozomi-visiting-nurse/index.html">ご利用までの流れ</a></li>
+        <li><a href="./conrtact.html">お問い合わせ</a></li>
+        <li><a href="./Recruitment.html">採用情報</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<div class="toggle_btn">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+</header>
+<!--header end-->
+    <main>
+        <h2>お問い合わせフォーム</h2>
+        <div class="contactwraper">
+             <div class="contactContent">
+                 <p>お問い合わせ内容</p><p class="must">必須</p>
+                 <input type="checkbox" name="content" value="訪問看護">訪問看護
+                  <input type="checkbox" name="content" value="訪問リハビリ">訪問看リハビリ           
+                  <input type="checkbox" name="content" value="自費サービス">自費サービス（保険外）<br>
+                  <input type="checkbox" name="content" value="採用関連">採用関連
+                 <input type="checkbox" name="content" value="その他">その他
+               </div>
+             </div>
+             <div class="contactContent">
+                <p>メッセージ欄<textarea name="message"></textarea></p>
+             </div>
+             <div class="contactContent">
+                <p>お名前<p class="must">必須</p><input type="text" name="userName"></p>
+                
+             </div>
+            <div class="contactContent">
+                 <p>電話番号<p class="must">必須</p><input type="text" name="tel"></p>
+                
+            </div>
+            <div class="contactContent">
+        　　    <p>メールアドレス<input type="email"></p>
+            </div>
+    　　    <div class="contactContent">
+                 <p>折り返しのご連絡</p>
+                 <input type="checkbox" name="back" value="mail">メール
+                  <input type="checkbox" name="back" value="tel">電話
+                 <input type="checkbox" name="back" value="mail-tel">メール、電話どちらでも
+                <input type="checkbox" name="back" value="nothanks">不要
+            </div>
+        </div>
+        <p class="submit"><input type="submit" value="送信"></p>
+    </main>
+    <footer>
+        <p>のぞみ訪問看護ステーション</p>
+      </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./common.js"></script>
+</body>
+</html>
